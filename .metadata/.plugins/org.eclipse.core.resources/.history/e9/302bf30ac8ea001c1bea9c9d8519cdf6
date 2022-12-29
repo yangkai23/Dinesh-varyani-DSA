@@ -1,0 +1,27 @@
+package dsa.list.singlylinkedlist;
+
+public class AddTwoNumLeetCode {
+	public static void main(String[] args) {
+		AddTwoNumLeetCode ex=new AddTwoNumLeetCode();
+		SinglyLinkedList l1=new SinglyLinkedList();
+		SinglyLinkedList l2=new SinglyLinkedList();
+		l1.add(9);
+		l2.add(1);l2.add(9);l2.add(9);l2.add(9);l2.add(9);l2.add(9);l2.add(9);l2.add(9);l2.add(9);
+		l2.add(9);
+		SinglyLinkedList l3=ex.addTwoNum(l1, l2);
+		System.out.println(l3);
+	}
+	public SinglyLinkedList addTwoNum(SinglyLinkedList l1,SinglyLinkedList l2) {
+		StringBuilder s1=new StringBuilder();
+		StringBuilder s2=new StringBuilder();
+		  while(l1!=null){
+	            s1.append(l1.;
+	            l1=l1.next;
+	        }
+	         while(l2!=null){
+	         num2.append(l2.val);
+	            l2=l2.next;
+	        }
+	}
+
+}
